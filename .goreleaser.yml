@@ -19,10 +19,10 @@ release:
   prerelease: auto
 dockers:
   - image_templates:
-    - "ghcr.io/golang-templates/seed/{{ .ProjectName }}:latest"
-    - "ghcr.io/golang-templates/seed/{{ .ProjectName }}:{{ .Major }}"
-    - "ghcr.io/golang-templates/seed/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}"
-    - "ghcr.io/golang-templates/seed/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}.{{ .Patch }}"
+    - "ghcr.io/pellared/seed/{{ .ProjectName }}:latest"
+    - "ghcr.io/pellared/seed/{{ .ProjectName }}:{{ .Major }}"
+    - "ghcr.io/pellared/seed/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}"
+    - "ghcr.io/pellared/seed/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}.{{ .Patch }}"
     build_flag_templates:
     - "--pull"
     - "--label=org.opencontainers.image.created={{.Date}}"

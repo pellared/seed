@@ -2,7 +2,7 @@ linters-settings:
   gocyclo:
     min-complexity: 15
   goimports:
-    local-prefixes: github.com/golang-templates/seed
+    local-prefixes: github.com/pellared/seed
   govet:
     check-shadowing: true
   misspell:

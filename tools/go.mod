@@ -1,4 +1,4 @@
-module github.com/golang-templates/seed/build
+module github.com/pellared/seed/build
 
 go 1.18
 
